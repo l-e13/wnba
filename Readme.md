@@ -1,7 +1,6 @@
-## Map of Documentation
-covidproject/
+My_Project/
 │
-├── README.md             # Readme File with information about 
+├── README.md             # Main orientation file (auto displays)
 ├── LICENSE.md            # License information (MIT by default)
 │
 ├── SCRIPTS/              # Contains all source code used in the project
