@@ -66,3 +66,8 @@ graph TB
 ```
 
 ## Instructions for Reproducing Results
+
+1. set up envvironment
+   - install python
+   - install all packages needed (listed above)
+2. download dataset
