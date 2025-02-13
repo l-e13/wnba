@@ -41,23 +41,28 @@ graph TB
   D --> D2
   D --> D3
 
-  %% Styling for main categories (Blue)
-  style A fill:#4a90e2,stroke:#003d5b,stroke-width:2px,color:white;
+  %% Styling for main project folder (Dark Blue)
+  style A fill:#003366,stroke:#001f3f,stroke-width:2px,color:white;
+
+  %% Styling for main categories (Light Blue)
+  style A1 fill:#4a90e2,stroke:#003d5b,stroke-width:2px,color:white;
+  style A2 fill:#4a90e2,stroke:#003d5b,stroke-width:2px,color:white;
   style B fill:#4a90e2,stroke:#003d5b,stroke-width:2px,color:white;
   style C fill:#4a90e2,stroke:#003d5b,stroke-width:2px,color:white;
   style D fill:#4a90e2,stroke:#003d5b,stroke-width:2px,color:white;
 
-  %% Styling for subsets (Red)
-  style B1 fill:#e74c3c,stroke:#8b0000,stroke-width:1px,color:white;
-  style B2 fill:#e74c3c,stroke:#8b0000,stroke-width:1px,color:white;
-  style B3 fill:#e74c3c,stroke:#8b0000,stroke-width:1px,color:white;
-  style B4 fill:#e74c3c,stroke:#8b0000,stroke-width:1px,color:white;
-  style C1 fill:#e74c3c,stroke:#8b0000,stroke-width:1px,color:white;
-  style C2 fill:#e74c3c,stroke:#8b0000,stroke-width:1px,color:white;
-  style C3 fill:#e74c3c,stroke:#8b0000,stroke-width:1px,color:white;
-  style C4 fill:#e74c3c,stroke:#8b0000,stroke-width:1px,color:white;
-  style D1 fill:#e74c3c,stroke:#8b0000,stroke-width:1px,color:white;
-  style D2 fill:#e74c3c,stroke:#8b0000,stroke-width:1px,color:white;
-  style D3 fill:#e74c3c,stroke:#8b0000,stroke-width:1px,color:white;
+  %% Styling for subsets (Light Red)
+  style B1 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
+  style B2 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
+  style B3 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
+  style B4 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
+  style C1 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
+  style C2 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
+  style C3 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
+  style C4 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
+  style D1 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
+  style D2 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
+  style D3 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
 ```
+
 ## Instructions for Reproducing Results
