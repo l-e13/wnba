@@ -3,26 +3,22 @@
 Investigate whether the sentiments of Twitter comments surrounding COVID-19 were more positive or negative the day of or a few weeks after states began implementing major shutdowns on March 15, 2020. 
 
 ## Map of Documentation
-## Map of Documentation
 ```mermaid
 graph TB
-  A[covidproject]
+  A[Project2]
   A1[README.md]
   A2[LICENSE.md]
   B[SCRIPTS]
-  B1[EDA Pre Analysis.ipynb]
-  B2[covid_EDA.ipynb]
-  B3[Analysis.ipynb]
-  B4[filtering for US and appending VADER.ipynb]
+  B1[EDA.ipynb]
+  B2[cleaning merged data.ipynb]
+  B3[genre predictive analysis.ipynb]
+  B4[genre trend analysis.ipynb]
+  B5[merging tracks and albums.ipynb]
   C[DATA]
-  C1[Corona_NLP_test.csv]
-  C2[Corona_NLP_train.csv]
-  C4[df_us_with_sentiment.csv]
+  C1[cleaned_merged_tracks.csv]
+  C2[raw_albums.csv]
   C3[Data Appendix]
   D[OUTPUT]
-  D1[figures]
-  D2[Analysis Figures.pdf]
-  D3[EDA Figures.pdf]
 
   A --> A1
   A --> A2
@@ -31,15 +27,12 @@ graph TB
   B --> B2
   B --> B3
   B --> B4
+  B --> B5
   A --> C
   C --> C1
   C --> C2
   C --> C3
-  C --> C4
   A --> D
-  D --> D1
-  D --> D2
-  D --> D3
 
   %% Styling for main project folder (Dark Blue)
   style A fill:#003366,stroke:#001f3f,stroke-width:2px,color:white;
@@ -56,14 +49,10 @@ graph TB
   style B2 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
   style B3 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
   style B4 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
+  style B5 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
   style C1 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
   style C2 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
   style C3 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
-  style C4 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
-  style D1 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
-  style D2 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
-  style D3 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
-```
 
 ## Instructions for Reproducing Results
 
