@@ -53,6 +53,7 @@ graph TB
   style C1 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
   style C2 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
   style C3 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
+```
 
 ## Instructions for Reproducing Results
 
